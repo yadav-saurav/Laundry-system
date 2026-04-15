@@ -119,7 +119,7 @@ json
 
 *Response:* {"success": true, "orderId": "30abf639-8e07-4d03-bf67-f6062683603a", "totalBill": 330}
 
-![Create Order Test](images/postman-create.png)
+![Create Order Test](./postman-create.png)
 
 
 
@@ -129,7 +129,7 @@ json
 
 *Valid statuses:* RECEIVED | PROCESSING | READY | DELIVERED
 
-![Status Update Test](images/postman-status.png)
+![Status Update Test](./postman-status.png)
 
 
 
@@ -144,7 +144,7 @@ json
     }
 }
 
-![Dashboard Test](images/postman-dashboard.png)
+![Dashboard Test](./postman-dashboard.png)
 
 
 
@@ -155,7 +155,7 @@ Filter: /orders?status=READY
 Filter: /orders?customerName=Rahul  
 Filter: /orders?phoneNumber=9876
 
-![Orders Filter Test](images/postman-orders.png)
+![Orders Filter Test](./postman-orders.png)
 
 ---
 
