@@ -47,10 +47,10 @@ Validation: Comprehensive input sanitization + error responses
 garments qty, calc bill), update status, view/filter orders, dashboard totals."
 
 AI Delivered:
-├── Perfect Express.js structure (app.post(), app.put(), app.get())
-├── Dashboard aggregation (reduce(), statusCount object)  
-├── In-memory storage pattern
-└── Basic endpoint routing
+a) Perfect Express.js structure (app.post(), app.put(), app.get())
+b) Dashboard aggregation (reduce(), statusCount object)  
+c) In-memory storage pattern
+d) Basic endpoint routing
 
 
 
@@ -58,10 +58,10 @@ AI Delivered:
 "Add UUID order IDs + hardcoded prices {Shirt:50, Pants:80, Saree:150} + bill calc"
 
 AI Delivered:
-├── prices[type] lookup pattern
-├── garments.forEach() iteration  
-├── totalBill accumulation
-└── Order object schema
+a) prices[type] lookup pattern
+b) garments.forEach() iteration  
+c) totalBill accumulation
+d) Order object schema
 
 
 
@@ -69,9 +69,9 @@ AI Delivered:
 "Make filters case-insensitive for customerName + add phone filtering"
 
 AI Delivered:
-├── Query parameter extraction (req.query)
-├── Array.filter() chaining
-└── Multi-criteria filtering logic
+a) Query parameter extraction (req.query)
+b) Array.filter() chaining
+c) Multi-criteria filtering logic
 
 
 ### *AI Excelled At:*
