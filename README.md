@@ -41,36 +41,30 @@ Validation: Comprehensive input sanitization + error responses
 
 ### **Development Prompts & AI Contributions**
 
+**1. Initial Scaffold (Prompt):**  
+*"Build Node.js Express API for laundry order system: create order (customer, phone, garments qty, calc bill), update status, view/filter orders, dashboard totals."*
 
-1. Initial Scaffold (Prompt):
-"Build Node.js Express API for laundry order system: create order (customer, phone, 
-garments qty, calc bill), update status, view/filter orders, dashboard totals."
+**AI Delivered:**  
+a) Perfect Express.js structure (`app.post()`, `app.put()`, `app.get()`)  
+b) Dashboard aggregation (`reduce()`, `statusCount` object)  
+c) In-memory storage pattern  
+d) Basic endpoint routing  
 
-AI Delivered:
-a) Perfect Express.js structure (app.post(), app.put(), app.get())
-b) Dashboard aggregation (reduce(), statusCount object)  
-c) In-memory storage pattern
-d) Basic endpoint routing
+**2. Pricing & Billing (Prompt):**  
+*"Add UUID order IDs + hardcoded prices {Shirt:50, Pants:80, Saree:150} + bill calc"*
 
+**AI Delivered:**  
+a) `prices[type]` lookup pattern  
+b) `garments.forEach()` iteration  
+c) `totalBill` accumulation  
+d) Order object schema  
 
+**3. Filtering Enhancement (Prompt):**  
+*"Make filters case-insensitive for customerName + add phone filtering"*
 
-2. Pricing & Billing (Prompt): 
-"Add UUID order IDs + hardcoded prices {Shirt:50, Pants:80, Saree:150} + bill calc"
-
-AI Delivered:
-a) prices[type] lookup pattern
-b) garments.forEach() iteration  
-c) totalBill accumulation
-d) Order object schema
-
-
-
-3. Filtering Enhancement (Prompt):
-"Make filters case-insensitive for customerName + add phone filtering"
-
-AI Delivered:
-a) Query parameter extraction (req.query)
-b) Array.filter() chaining
+**AI Delivered:**  
+a) Query parameter extraction (`req.query`)  
+b) `Array.filter()` chaining  
 c) Multi-criteria filtering logic
 
 
